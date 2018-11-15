@@ -14,5 +14,5 @@ func init() {
 	beego.Router("/articleDetail",&controllers.ArticleController{},"get:ShowArticleDetail")
 	beego.Router("/updateArticle",&controllers.ArticleController{},"get:ShowUpdateArticle;post:HandleUpdateArticle")
 	beego.Router("/deleteArticle",&controllers.ArticleController{},"get:DeleteArticle")
-	//beego.Router()
+	//第三个版本
 }
